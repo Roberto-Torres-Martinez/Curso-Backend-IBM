@@ -1,0 +1,3 @@
+1,Patatas,1.5
+2,Refresco,1.25
+3,Sandwich,2.5
