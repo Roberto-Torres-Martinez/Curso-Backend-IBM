@@ -1,6 +1,6 @@
 # Proyecto Backend - Curso IBM 💻
 
-Este proyecto corresponde al curso de Backend de IBM, en el cual se utilizaron tecnologías como Python, MySQL, Flask y Django para el desarrollo de aplicaciones backend.
+Este proyecto corresponde al curso de Backend de IBM, en el cual se utilizan tecnologías como Python, MySQL, Flask y Django para el desarrollo de aplicaciones backend.
 
 ## Tecnologías Utilizadas 🛠️
 
