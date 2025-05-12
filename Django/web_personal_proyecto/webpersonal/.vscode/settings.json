@@ -1,0 +1,17 @@
+{
+  "python.pythonPath": "${workspaceFolder}/env/Scripts/python.exe",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django"
+  ],
+  "html.autoClosingTags": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "files.associations": {
+    "*.html": "html"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}
