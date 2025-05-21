@@ -29,7 +29,7 @@ class PageCreate(CreateView):
     form_class = PageForm
     success_url = reverse_lazy('pages:pages')
  
- @method_decorator(staff_member_required, name='dispatch')    
+@method_decorator(staff_member_required, name='dispatch')    
 class PageUpdate(UpdateView):
     model = Page
     form_class = PageForm
