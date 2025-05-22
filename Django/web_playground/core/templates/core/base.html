@@ -41,13 +41,19 @@
                 </li>
               {% else %}
                 <li class="nav-item">
-                  <form method="post" action="{% url 'logout' %}">
-                    {% csrf_token %}
-                    <button type="submit" class="nav-link btn btn-link nav-item" style="padding: 0; border: none; background: none;">
-                      Salir
-                    </button>
-                  </form>
+                  <a class="nav-link" href="{% url 'profile' %}">Perfil</a>
                 </li>
+                <li class="nav-item" style="display: flex; align-items: center;">
+                <form method="post" action="{% url 'logout' %}" style="margin: 0;">
+                  {% csrf_token %}
+                  <button 
+                    type="submit" 
+                    class="nav-link btn btn-link p-0" 
+                    style="border: none; background: none; cursor: pointer;">
+                    Salir
+                  </button>
+                </form>
+              </li>
               {% endif %}
             </ul>
           </div>
